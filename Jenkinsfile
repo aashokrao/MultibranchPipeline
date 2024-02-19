@@ -1,6 +1,6 @@
 node('built-in') {
     stage('continuos download') {
-    git branch: 'main', url: 'https://github.com/aashokrao/DevOpsAwsAA'
+    git branch: 'main', url: 'https://github.com/aashokrao/MultibranchPipeline.git'
     }
     stage('continuos build') {
         sh 'mvn package'

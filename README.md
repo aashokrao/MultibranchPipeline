@@ -12,3 +12,4 @@ and build the instruction .
 
 Deploy ```target/WebApp.war``` on Tomcat properly for better experience.
 # Multibranch pipeline job
+# Now configured in jenkins, which will trigger automatically while we commit the code
